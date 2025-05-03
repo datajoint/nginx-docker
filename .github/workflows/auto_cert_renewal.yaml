@@ -22,7 +22,7 @@ jobs:
       MANUAL_LETSENCRYPT_BRANCH: "master"
       CALLER_REPO_SUBPATH_FOR_CERT: "./nginx"
       # PR_REVIEWERS: "yambottle"
-      PR_REVIEWERS: "datajointbot,yambottle,ethho"
+      PR_REVIEWERS: "datajointbot,drewyangdev,ethho,ttngu207,dimitri-yatsenko"
     secrets:
       ROUTE53_ZONE_ID: ${{ secrets.ROUTE53_ZONE_ID }}
       INSTANCE_VPC_SECURITY_GROUP_IDS: ${{ secrets.INSTANCE_VPC_SECURITY_GROUP_IDS }}

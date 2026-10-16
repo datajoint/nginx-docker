@@ -21,7 +21,6 @@ jobs:
       MANUAL_LETSENCRYPT_REPO: "datajoint/manual-letsencrypt"
       MANUAL_LETSENCRYPT_BRANCH: "master"
       CALLER_REPO_SUBPATH_FOR_CERT: "./nginx"
-      # PR_REVIEWERS: "yambottle"
       PR_REVIEWERS: "datajointbot,mweitzel,ttngu207,dimitri-yatsenko"
     secrets:
       ROUTE53_ZONE_ID: ${{ secrets.ROUTE53_ZONE_ID }}
